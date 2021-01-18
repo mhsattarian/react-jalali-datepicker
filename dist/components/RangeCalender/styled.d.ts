@@ -1,10 +1,5 @@
 interface IRangeDateDiv {
-  isGregorian: boolean;
+    isGregorian: boolean;
 }
-export declare const RangeDateDiv: import("styled-components").StyledComponent<
-  "div",
-  import("../../types").styledThemes,
-  IRangeDateDiv,
-  never
->;
+export declare const RangeDateDiv: import("styled-components").StyledComponent<"div", import("../../types").styledThemes, IRangeDateDiv, never>;
 export {};

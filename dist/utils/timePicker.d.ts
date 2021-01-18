@@ -3,32 +3,18 @@
  * These functions find position X-axis and Y-axis from half of the clock width
  * Its start from 30 deg and each time this degree increase as much as 30 deg
  */
-export declare function numberPositionX(
-  idx: number,
-  width?: number,
-  padding?: number,
-): number;
-export declare function numberPositionY(
-  idx: number,
-  width?: number,
-  padding?: number,
-): number;
+export declare function numberPositionX(idx: number, width?: number, padding?: number): number;
+export declare function numberPositionY(idx: number, width?: number, padding?: number): number;
 export declare const center: {
-  x: number;
-  y: number;
+    x: number;
+    y: number;
 };
 export declare const radianToDeg: (rad: any) => number;
-export declare const calculateOffset: (
-  elem: any,
-) => {
-  offsetX: any;
-  offsetY: any;
+export declare const calculateOffset: (elem: any) => {
+    offsetX: any;
+    offsetY: any;
 };
-export declare const getValue: (
-  deg: number,
-  delta: number,
-  steps: any,
-) => number;
+export declare const getValue: (deg: number, delta: number, steps: any) => number;
 /**
  * calculate the value from where the mouse clicked or tapped
  * step1: calculate deg from the center of the circle not (0, 0)
@@ -40,13 +26,10 @@ export declare const getValue: (
  * step4: make value by division deg into the hour or minutes angles. in the hour is 30 deg and in minutes is 6 deg
  */
 interface IGetAngelValues {
-  value: number;
-  delta: number;
+    value: number;
+    delta: number;
 }
-export declare const getAngelValues: (
-  e: React.MouseEvent | React.TouchEvent,
-  steps?: number,
-) => IGetAngelValues;
+export declare const getAngelValues: (e: React.MouseEvent | React.TouchEvent, steps?: number) => IGetAngelValues;
 export declare const hours: number[];
 export declare const hours24: number[];
 export declare const minutes: number[];

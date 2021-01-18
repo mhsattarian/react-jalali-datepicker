@@ -1,6 +1,6 @@
 import rollupTypescript from "rollup-plugin-typescript2";
-import commonjs from "rollup-plugin-commonjs";
-import resolve from "rollup-plugin-node-resolve";
+import commonjs from "@rollup/plugin-commonjs";
+import resolve from "@rollup/plugin-node-resolve";
 import builtins from "rollup-plugin-node-builtins";
 import sourcemaps from "rollup-plugin-sourcemaps";
 import { terser } from "rollup-plugin-terser";

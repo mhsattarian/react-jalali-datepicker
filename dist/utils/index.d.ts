@@ -5,22 +5,13 @@ export declare const inputFaDateMask: (string | RegExp)[];
 export declare const inputEnDateMask: (string | RegExp)[];
 export declare const inputFaDateWithTimeMask: (string | RegExp)[];
 export declare const inputEnDateWithTimeMask: (string | RegExp)[];
-export declare const getFormatDate: ({
-  isGregorian,
-}: {
-  isGregorian: any;
+export declare const getFormatDate: ({ isGregorian }: {
+    isGregorian: any;
 }) => "YYYY/MM/DD" | "jYYYY/jMM/jDD";
 export declare const getFormatTime: () => string;
-export declare const weekDayNames: ({
-  isGregorian,
-}: {
-  isGregorian: any;
-}) => string[];
-export declare const formatDateString: (
-  date: any,
-  {
-    isGregorian,
-  }: {
+export declare const weekDayNames: ({ isGregorian }: {
     isGregorian: any;
-  },
-) => moment.Moment;
+}) => string[];
+export declare const formatDateString: (date: any, { isGregorian }: {
+    isGregorian: any;
+}) => moment.Moment;
