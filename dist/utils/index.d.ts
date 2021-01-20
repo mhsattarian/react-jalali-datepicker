@@ -12,6 +12,9 @@ export declare const getFormatTime: () => string;
 export declare const weekDayNames: ({ isGregorian }: {
     isGregorian: any;
 }) => string[];
-export declare const formatDateString: (date: any, { isGregorian }: {
+export declare const formatDateFromString: (date: any, { isGregorian }: {
     isGregorian: any;
 }) => moment.Moment;
+export declare const formatDateToString: (date: any, { isGregorian }: {
+    isGregorian: any;
+}) => any;
