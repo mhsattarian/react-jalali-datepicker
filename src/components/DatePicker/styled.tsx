@@ -1,5 +1,6 @@
 import styled from "../../theme";
-import * as InputMask from "react-input-mask";
+import InputMask from "react-input-mask";
+console.log("🚀 ~ file: styled.tsx ~ line 3 ~ InputMask", InputMask);
 
 interface IDatePickerDiv {
   isGregorian: boolean;
