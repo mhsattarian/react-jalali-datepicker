@@ -18,7 +18,7 @@ export const DaysBody = styled.div<{
   ${(props) =>
     props.plain &&
     `
-    border: 1px solid #ccc;
+    border: 1px solid ${props.theme.borderColor};
 		`};
 
   & * {

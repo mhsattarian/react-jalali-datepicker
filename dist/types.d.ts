@@ -11,6 +11,7 @@ export interface IRangeDays {
 }
 export interface ITheme {
     backColor?: string;
+    borderColor?: string;
     headBackColor?: string;
     headTitleColor?: string;
     headArrowColor?: string;

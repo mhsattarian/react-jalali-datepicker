@@ -3,6 +3,7 @@ import { IDatePickerTheme, IRangeDatePickerTheme, styledThemes } from "./types";
 
 export const defaultRangeTheme: IRangeDatePickerTheme = {
   backColor: "#FFFFFF",
+  borderColor: "#ccc",
   // head
   headBackColor: "#FFFFFF",
   headTitleColor: "#aeaeae",
@@ -47,6 +48,7 @@ export const defaultRangeTheme: IRangeDatePickerTheme = {
 
 export const defaultDatePickerTheme: IDatePickerTheme = {
   backColor: "#FFFFFF",
+  borderColor: "#ccc",
   // head
   headBackColor: "#FFFFFF",
   headTitleColor: "#aeaeae",
