@@ -1,4 +1,3 @@
-import moment from "jalali-moment";
 export declare const fa: (n: any, isGregorian: any) => any;
 export declare const toPersianDigits: (str: any) => any;
 export declare const inputFaDateMask: (string | RegExp)[];
@@ -17,7 +16,7 @@ export declare const weekDayNamesComplete: ({ isGregorian }: {
 }) => string[];
 export declare const formatDateFromString: (date: any, { isGregorian }: {
     isGregorian: any;
-}) => moment.Moment;
+}) => any;
 export declare const formatDateToString: (date: any, { isGregorian }: {
     isGregorian: any;
 }) => any;
